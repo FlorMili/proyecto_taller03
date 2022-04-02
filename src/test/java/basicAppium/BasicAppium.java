@@ -36,10 +36,10 @@ public class BasicAppium {
     }
 
     @Test
-    public void calculatorTest() throws InterruptedException{
+    public void listTest() throws InterruptedException{
 
         //button +
-        driver.findElement(By.xpath(" //android.widget.ImageButton[@resource-id='com.vrproductiveapps.whendo:id/fab']")).click();
+        driver.findElement(By.xpath("//android.widget.ImageButton[@resource-id='com.vrproductiveapps.whendo:id/fab']")).click();
         //llenar  title
         driver.findElement(By.xpath("//android.widget.EditText[@text='Title']")).sendKeys("taller02");
         //llenar  Notes
